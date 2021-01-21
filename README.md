@@ -1,16 +1,46 @@
-# simple_streaming_app
+# Simple Streaming App
 
-A new Flutter project.
+Supported devices android
+```
+min : android 6.0 (M) (v23)
+```
+Supported features
+```
+1. search music
+2. start / stop music
+3. offline / online network status indicator
+```
 
-## Getting Started
+Requirements:
+```
+at least Flutter version 1.23.0-18.1.pre
+```
 
-This project is a starting point for a Flutter application.
+Before you run the app
+```
+flutter pub get
+```
 
-A few resources to get you started if this is your first Flutter project:
+How to run:
+1. Dev environment
+    ```
+    make run_dev
+    ```
+2. Staging enviroment
+    ```
+    make run_staging
+    ```
+3. Production enviroment
+    ```
+    make run_prod
+    ```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+how to build prod app:
+1. Build APK
+    ```
+    make build_prod_apk
+    ```
+2. Build appbundle
+    ```
+    make build_prod_appbundle
+    ```
