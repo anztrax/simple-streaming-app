@@ -7,7 +7,7 @@ min : android 6.0 (M) (v23)
 Supported features
 ```
 1. search music
-2. start / stop music
+2. play and resume music
 3. offline / online network status indicator
 ```
 
